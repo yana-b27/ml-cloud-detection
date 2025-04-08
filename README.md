@@ -60,6 +60,7 @@ cloud-detection-plugin/
 ### Example Result
 Before:  
 ![image](https://github.com/user-attachments/assets/fe4dfb16-5209-4307-ba3a-74293702a7b4)
+
 After:  
 ![image](https://github.com/user-attachments/assets/6b0dce98-4ee3-4bc3-942b-97285de8ac25)
 
