@@ -58,10 +58,14 @@ cloud-detection-plugin/
 ![image](https://github.com/user-attachments/assets/e14cbaf0-e227-4bb0-81bd-b30a3c2bb616)
 
 ### Example Result
-Before:  
-![image](https://github.com/user-attachments/assets/fe4dfb16-5209-4307-ba3a-74293702a7b4)
-
-After:  
-![image](https://github.com/user-attachments/assets/6b0dce98-4ee3-4bc3-942b-97285de8ac25)
-
-
+Before/after:  
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <div style="text-align: center;">
+    <img src="https://github.com/user-attachments/assets/fe4dfb16-5209-4307-ba3a-74293702a7b4" alt="Before" width="300"/>
+    <p>Before: Original Satellite Image</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="https://github.com/user-attachments/assets/6b0dce98-4ee3-4bc3-942b-97285de8ac25" alt="After" width="300"/>
+    <p>After: Cloud Mask</p>
+  </div>
+</div>
