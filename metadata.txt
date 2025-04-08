@@ -10,10 +10,9 @@ version=0.1
 author=Yana Bakhramkhan
 email=yana@qgis.org
 
-about=The Cloud Detection plugin identifies clouds in satellite imagery using machine learning techniques. It supports .tif files with at least 4 channels (blue, green, red, NIR). The plugin employs two pre-trained models—Logistic Regression and Naive Bayes—for cloud detection, allowing users to choose the preferred method. Features include adding the input image to the map and customizable output settings.
 
-tracker=http://bugs
-repository=http://repo
+tracker=https://github.com/yana-b27/ml-cloud-detection/issues
+repository=https://github.com/yana-b27/ml-cloud-detection
 # End of mandatory metadata
 
 # Recommended items:
@@ -23,9 +22,9 @@ hasProcessingProvider=no
 # changelog=
 
 # Tags are comma separated with spaces allowed
-tags=remote sensing
+tags=remote sensing,machine learning
 
-homepage=http://homepage
+homepage=https://github.com/yana-b27/ml-cloud-detection
 category=Plugins
 icon=icon.png
 # experimental flag
