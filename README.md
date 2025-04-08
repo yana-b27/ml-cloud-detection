@@ -34,15 +34,18 @@ The ML Cloud Detection plugin is a QGIS tool designed to identify clouds in sate
 Below is the structure of the repository with descriptions of each file and directory:
 ```
 cloud-detection-plugin/
+├── i18n/                         # Internationalization files
 ├── ml_models/                    # Directory containing pre-trained machine learning models
 │   ├── logistic_regression.joblib  # Pre-trained Logistic Regression model for cloud detection
 │   └── naive_bayes.joblib          # Pre-trained Naive Bayes model for cloud detection
-├── init.py                       # Initialization file required for QGIS to recognize the plugin
+├── __init__.py                   # Initialization file required for QGIS to recognize the plugin
 ├── cloud_detection.py            # Main plugin file that registers the plugin in QGIS
 ├── cloud_detection_dialog.py     # Contains the dialog window UI and logic for user interaction
+├── cloud_detection_dialog_base.ui  # QGIS UI design file (Qt Designer)
 ├── cloud_detector.py             # Core logic for image processing and cloud detection
 ├── icon.png                      # Icon file displayed in the QGIS toolbar for the plugin
 ├── metadata.txt                  # Metadata file with plugin information (version, author, etc.) for QGIS
+├── plugin_upload.py              # Script for uploading to QGIS repository
 ├── requirements.txt              # List of Python dependencies required to run the plugin
 ├── resources.qrc                 # Resource file containing references to icons and other assets
 ├── .gitignore                    # Git ignore file to exclude temporary files (e.g., pycache)
