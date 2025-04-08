@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/cloud_detection" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>
