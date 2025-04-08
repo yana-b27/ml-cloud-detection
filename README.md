@@ -1,7 +1,7 @@
 # ml-cloud-detection
 ![icon](https://github.com/user-attachments/assets/e0858142-d82a-4d7c-9a00-5bc350d12b76)
 ## Overview
-The ML Cloud Detection plugin is a QGIS tool designed to identify clouds in satellite imagery using machine learning techniques. It processes .tif files with a minimum of 4 channels (blue, green, red, NIR) and generates a cloud mask as output, which is visualized in QGIS. The plugin leverages two pre-trained models—Logistic Regression and Naive Bayes—allowing users to select the preferred method for cloud detection.
+The ML Cloud Detection plugin is a QGIS tool designed to identify clouds in satellite imagery using machine learning techniques. It processes .tif files with a minimum of 4 channels (blue, green, red, NIR) and generates a cloud mask as output, which is visualized in QGIS. The plugin leverages two pre-trained models—Logistic Regression and Naive Bayes—allowing users to select the preferred method for cloud detection. The process of training empirical and machine learning models is described in the Jupyter notebook at the following [link](https://github.com/yana-b27/ml-cloud-detection/blob/main/cloud_detection_algorithms.ipynb).
 
 ## Features
 - Input Support: Processes .tif files with at least 4 channels (blue, green, red, NIR).
@@ -40,6 +40,7 @@ cloud-detection-plugin/
 │   └── naive_bayes.joblib          # Pre-trained Naive Bayes model for cloud detection
 ├── __init__.py                   # Initialization file required for QGIS to recognize the plugin
 ├── cloud_detection.py            # Main plugin file that registers the plugin in QGIS
+├── cloud_detection_algorithms.ipynb  # Jupyter notebook with data preparation and analysis of cloud detection models
 ├── cloud_detection_dialog.py     # Contains the dialog window UI and logic for user interaction
 ├── cloud_detection_dialog_base.ui  # QGIS UI design file (Qt Designer)
 ├── cloud_detector.py             # Core logic for image processing and cloud detection
