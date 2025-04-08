@@ -1,6 +1,7 @@
 # ml-cloud-detection
+![icon](https://github.com/user-attachments/assets/cf6d8fa4-7822-4ea4-b1a4-d211f78f9e3f)
 ## Overview
-The Cloud Detection plugin is a QGIS tool designed to identify clouds in satellite imagery using machine learning techniques. It processes .tif files with a minimum of 4 channels (blue, green, red, NIR) and generates a cloud mask as output, which is visualized in QGIS with a black-to-white gradient (0 to 1). The plugin leverages two pre-trained models—Logistic Regression and Naive Bayes—allowing users to select the preferred method for cloud detection.
+The ML Cloud Detection plugin is a QGIS tool designed to identify clouds in satellite imagery using machine learning techniques. It processes .tif files with a minimum of 4 channels (blue, green, red, NIR) and generates a cloud mask as output, which is visualized in QGIS. The plugin leverages two pre-trained models—Logistic Regression and Naive Bayes—allowing users to select the preferred method for cloud detection.
 
 ## Features
 - Input Support: Processes .tif files with at least 4 channels (blue, green, red, NIR).
