@@ -56,5 +56,6 @@ cloud-detection-plugin/
 
 ## Video example
 
-click on the preview below to open the video in Google Drive:
+Сlick on the preview below to open the video in Google Drive:
+
 [![Plugin example](./assets/preview.png)](https://drive.google.com/file/d/1qyJnjhdVLgCHIlHvSQmM1MlNA2nyeDvP/view?usp=sharing)
