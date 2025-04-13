@@ -55,6 +55,9 @@ cloud-detection-plugin/
 ```
 
 ## Screenshots
+
+[![Plugin example]()](https://drive.google.com/uc?export=download&id=1qyJnjhdVLgCHIlHvSQmM1MlNA2nyeDvP)
+
 ### Plugin Interface
 ![image](https://github.com/user-attachments/assets/e14cbaf0-e227-4bb0-81bd-b30a3c2bb616)
 
