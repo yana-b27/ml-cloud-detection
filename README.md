@@ -54,21 +54,7 @@ cloud-detection-plugin/
 └── README.md                     # Main documentation file with plugin description
 ```
 
-## Screenshots
+## Video example
 
+click on the preview below to open the video in Google Drive:
 [![Plugin example](./assets/preview.png)](https://drive.google.com/file/d/1qyJnjhdVLgCHIlHvSQmM1MlNA2nyeDvP/view?usp=sharing)
-
-### Plugin Interface
-![image](https://github.com/user-attachments/assets/e14cbaf0-e227-4bb0-81bd-b30a3c2bb616)
-
-### Example Result
-<div style="display: flex; justify-content: center; gap: 20px;">
-  <div style="text-align: center;">
-    <img src="https://github.com/user-attachments/assets/fe4dfb16-5209-4307-ba3a-74293702a7b4" alt="Before" width="300"/>
-    <p>Before: Original Satellite Image</p>
-  </div>
-  <div style="text-align: center;">
-    <img src="https://github.com/user-attachments/assets/6b0dce98-4ee3-4bc3-942b-97285de8ac25" alt="After" width="300"/>
-    <p>After: Cloud Mask</p>
-  </div>
-</div>
