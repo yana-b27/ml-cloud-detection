@@ -20,16 +20,6 @@ The ML Cloud Detection plugin is a QGIS tool designed to identify clouds in sate
 - Requires .tif files with at least 4 channels (blue, green, red, NIR).
 - Models are pre-trained and may not generalize well to all types of satellite imagery.
 
-## Dependencies
-- QGIS 3.x
-- Python libraries:
-   - rasterio: For reading and writing .tif files.
-   - numpy: For numerical computations.
-   - pandas: For feature engineering.
-   - scikit-learn: For machine learning models.
-   - spyndex: For calculating spectral indices like NDWI.
-   - joblib: For loading pre-trained models.
-
 ## Directory Structure
 Below is the structure of the repository with descriptions of each file and directory:
 ```
